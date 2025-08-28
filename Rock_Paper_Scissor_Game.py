@@ -4,7 +4,7 @@ import random
 import time
 
 # Title
-for char in "Rock Paper Scissor Game \n "" \n R for Rock \n P for Paper \n S for Scissor \n ":
+for char in "Rock Paper Scissor Game \n\n R for Rock \n P for Paper \n S for Scissor \n ":
    print(char,end="",flush=True)
    time.sleep(random.uniform(0.05,0.1))
 
